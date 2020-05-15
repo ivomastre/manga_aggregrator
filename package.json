@@ -1,0 +1,13 @@
+{
+  "name": "manga_site",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "repository": "https://github.com/ivomastre/manga_aggregrator.git",
+  "author": "ivomastre <ivomastre@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "pug": "^2.0.4"
+  }
+}
