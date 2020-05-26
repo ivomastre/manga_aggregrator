@@ -23,5 +23,7 @@ def get_all_manga_sites(manga_site, manga_name):
 app.run(debug=True)
 
 
-    
-    
+
+
+
+
