@@ -12,6 +12,10 @@ tsc
 npx nodemon localhost 5000
 ```
 
+## Initializing selenium grid
+```bash
+xvfb-run java -Dwebdriver.firefox.driver=/usr/bin/geckodriver -Dwebdriver.firefox.whitelistedIps= -jar selenium-server-standalone-3.10.0.jar
+```
 ## Convensões no código
 1)Todas as funções q retornam algo sempre retornam um array de dict, todas as routes retornam json
 
