@@ -2,12 +2,13 @@ import App from './app'
 
 import * as bodyParser from 'body-parser'
 import loggerMiddleware from './middleware/logger'
-import HomeController from './controllers/home/home.controller'
-
+import mangaIdController from './controllers/mangaId/mangaId.controller'
+import MangaController from './controllers/mangaSite/mangaSite.controller'
 const app = new App({
     port: 5000,
     controllers: [
-        new HomeController(),
+        new mangaIdController(),
+        new MangaController(),
     ],
     middleWares: [
         bodyParser.json(),
@@ -17,4 +18,3 @@ const app = new App({
 })
 
 app.listen()
-//boa noite
